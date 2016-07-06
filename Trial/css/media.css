@@ -1,0 +1,145 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1240px) {
+	.navbar{
+		margin-left: 70px;
+	}
+
+
+}
+@media only screen and (max-width : 1140px) {
+	.img{
+		margin-left: 40px;
+	}
+		.navbar{
+		margin-left: 30px;
+	}
+	a.button{
+		margin-right: 50px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.navbar ul li {
+	  margin-right: 8px;
+
+	}
+		.navbar{
+		margin-left: 15px;
+	}
+	.button_head a.button{
+		margin-right: 15px;
+	}
+	.img{
+		margin-left: 10px;
+	}
+	.img span {
+		margin-left: 7px;
+	}
+	a.button{
+		margin-right: 80px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.img{
+		margin-left: 10px;
+	}
+	.button_head a.button{
+		margin-right: 10px;
+	}
+	.navbar{
+		display: none;
+	}
+	.img span {
+		margin-left: 5px;
+	}
+	.img .logo-name {
+    margin-left: 10px;
+  }
+  #toggle{   display: inline-block;}
+  a#toggle {
+    margin-left: 0px;
+  }
+/*	.navbar ul{
+		display: none;
+	}*/
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.img .logo {
+		display: none;
+	}
+a.button{
+	width: 90px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.img{
+	margin-left: 3px;
+}
+a.button{
+	width: 80px;
+
+}
+.img .logo {
+		display: none;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
