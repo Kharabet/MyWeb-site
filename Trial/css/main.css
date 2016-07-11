@@ -24,6 +24,9 @@ html.js .loader .loader_inner {
   top: 50%;
   position: absolute;
 }
+html{
+  overflow-x: hidden;
+}
 
 body {
   font-family: "MyriadProRegular", sans-serif;
